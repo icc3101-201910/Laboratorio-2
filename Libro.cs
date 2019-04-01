@@ -16,8 +16,9 @@ namespace Laboratorio2
             this.stock = stock;
         }
 
-        public string GetDescripcion() {
-            return "";
+        public string GetDescripcion() 
+        {
+            return $"{nombre} - ({autor})";
         }
     }
 }
