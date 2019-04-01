@@ -14,7 +14,7 @@ namespace Laboratorio2
 
         public string GetDescripcion()
         {
-            return "";
+            return $"{juego.precio} - {juego.GetDescripcion()} - {persona.rut}";
         }
     }
 }

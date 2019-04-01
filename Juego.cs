@@ -18,7 +18,7 @@ namespace Laboratorio2
 
         public string GetDescripcion()
         {
-            return "";
+            return $"{nombre} - ({plataforma})";
         }
     }
 }
